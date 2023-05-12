@@ -1,0 +1,39 @@
+@font-face {
+    font-family: BuenosAiresBold;
+    src: url(../../assets/fonts/BuenosAires-Bold.woff);
+  }
+
+
+  @font-face {
+    font-family: BuenosAiresRegular;
+    src: url(../../assets/fonts/BuenosAires-Regular.woff);
+  }
+
+  @font-face {
+    font-family: BuenosAiresThin;
+    src: url(../../assets/fonts/BuenosAires-Thin.woff);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  body
+  {
+    font-family: BuenosAiresRegular;
+  }
+
+  h1, h2, h3, h4, h5, h6, b, strong
+  {
+    font-family: BuenosAiresBold;
+    font-weight: 700;
+  }
+
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: BuenosAiresThin;
+    font-size: 16px;
+
+}
