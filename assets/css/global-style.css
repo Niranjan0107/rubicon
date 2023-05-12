@@ -11,7 +11,13 @@
 
   @font-face {
     font-family: BuenosAiresThin;
-    src: url(../../assets/fonts/BuenosAires-Thin.woff);
+    src: url(../../assets/fonts/BuenosAires-Book.woff);
+  }
+
+
+  @font-face {
+    font-family: BuenosAiresSemiBold;
+    src: url(../../assets/fonts/BuenosAires-SemiBold.woff);
   }
 
   * {
@@ -19,10 +25,10 @@
   }
   
 
-  body
-  {
-    font-family: BuenosAiresRegular;
-  }
+  body {
+    font-family: BuenosAiresThin;
+    margin: 0;
+}
 
   h1, h2, h3, h4, h5, h6, b, strong
   {
@@ -34,6 +40,1555 @@
     margin-block-start: 0;
     margin-block-end: 0;
     font-family: BuenosAiresThin;
-    font-size: 16px;
-
+    font-size: 14px;
+    color: #6C6A6A;
 }
+body a
+{
+    font-family: BuenosAiresThin;
+font-size: 15px;
+text-decoration: none;
+color: #6C6A6A;
+}
+
+body a:hover
+{
+ font-family: BuenosAiresThin;
+text-decoration: none;
+color: initial;
+}
+
+.rubicon-btn:hover, .primary-bg.small-rubicon-btn {
+    color: #fff;
+}
+
+.rubicon-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #FD6727;
+    border-radius: 30px;
+    padding: 12px 21px;
+    border: 0;
+    font-family: 'BuenosAiresThin';
+    position: relative;
+}
+
+a.navbar-brand img {
+    width: 257px;
+    object-fit: contain;
+}
+
+.primary-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FD6727;
+}
+
+.small-rubicon-btn, .small-rubicon-btn:hover {
+    border-radius: 39px;
+    padding: 12px 32px;
+    font-family: 'BuenosAiresThin';
+    text-decoration: none;
+}
+
+
+.primary-bg, .primary-bg:hover a
+{
+    background: #FD6727;
+    color: #fff;
+}
+
+
+.white-bg, .white-bg:hover a
+{
+    background: #fff;
+    color: #FD6727;
+}
+
+/* Header Css  */
+
+
+
+header {
+    padding: 0px 25px;
+}
+
+li.nav-item a:hover {
+    font-weight: 600;
+}
+
+li.nav-item a {
+    padding-right: 30px;
+}
+
+li.nav-item a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #161D27;
+    font-family: 'BuenosAiresThin';
+    text-decoration: none;
+}
+
+a.login {
+    margin-right: 24px;
+    margin-left: 12px;
+}
+
+
+a.help-icon img {
+    width: 18px;
+    height: 18px;
+}
+
+a.help-icon {
+    background: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 34px;
+    margin: 0;
+}
+
+a.login {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
+}
+
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff6eb;
+    z-index: 99;
+}
+
+/* Header Css  */
+
+
+
+
+/* Footer Css */
+
+
+.top-footer {
+    background-color: #0B1625;
+    color: #fff;
+}
+
+.bottom-footer {
+    background-color: #161D27;
+    color: #fff;
+}
+
+
+.top-footer {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.bottom-footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-row div h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-row p {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.app-box img {
+    max-width: 151px;
+}
+
+.app-box {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+.social-link ul li {
+    margin-right: 12px;
+}
+
+.social-link ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+.social-link ul img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+select.form-select {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #E8E6E6;
+    border-radius: 50px;
+    background-color: #0b1625;
+    font-family: 'BuenosAiresThin';
+    padding: 8px 18px;
+}
+.item-language {
+    max-width: 340px !important;
+    margin-left: auto;
+}
+
+.bottom-footer h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.footer-bottom-row ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-bottom-row ul {
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+}
+
+.footer-bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'BuenosAiresThin';
+    padding: 10px;
+}
+
+/* Footer Css */
+
+
+/* section.banner-section {
+    background: linear-gradient(179.98deg, rgba(254, 253, 250, 0.76) 0.02%, rgba(253, 255, 238, 0.12) 65.97%, rgba(253, 255, 238, 0.25) 80.74%);
+}
+
+section.banner-section {
+    padding-top: 160px;
+} */
+
+.top-sec-cover {
+    padding-top: 160px;
+    background: linear-gradient(179.98deg, #fff6eb 0.02%, rgba(253, 255, 238, 0.12) 65.97%, rgba(253, 255, 238, 0.25) 80.74%);
+}
+
+
+.tag-line h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 66px;
+    color: #161D27;
+}
+
+.tag-line p {
+    font-family: 'BuenosAiresSemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161D27;
+}
+
+.tag-line .underline {
+    position: relative;
+}
+
+.tag-line .underline:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.45em;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+    background-image: url(../../assets/images/underlinev1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    bottom: -2px;
+    height: 18px;
+    left: 21px;
+}
+
+.searchbox input.form-control {
+    height: 56px;
+    background: #FFFFFF;
+border: 2px solid #EBEBEB;
+box-shadow: 0px 0px 27.5849px rgba(0, 0, 0, 0.03);
+}
+
+.searchbox  input.form-control {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6C6A6A;
+    font-family: 'BuenosAiresRegular';
+    padding-left: 74px;
+}
+
+.searchbox  input[type="submit"] {
+    background: #FD6727;
+    border: 0;
+    width: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'BuenosAiresBold';
+    border-radius: 0px 100px 100px 0px;
+}
+
+body .banner-section .searchbox form input.form-control {
+    border-radius: 100px 0px 0px 100px !important;
+}
+
+body .banner-section .searchbox form img {
+    height: 21px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 9;
+    top: 17px;
+    left: 40px;
+}
+
+body .banner-section .searchbox form div {
+    position: relative;
+}
+
+
+.popular-key-word strong {
+    padding-right: 5px;
+}
+.popular-key-word span {
+    text-decoration-line: underline;
+    color: #fd6727;
+}
+.popular-key-word {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.banner-row .item-pic img {
+    height: 550px;
+    object-fit: contain;
+}
+.item-pic {
+    text-align: center;
+}
+
+
+.language-title h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #161D27;
+}
+
+
+.language-items .item img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.language-items .item h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #161D27;
+    padding-top: 8px;
+}
+
+
+.language-row {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+.single-testimonials {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+}
+
+
+.testimonial-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-testimonials-box {
+    width: 100%;
+    padding: 20px 32px;
+    position: relative;
+}
+
+.single-testimonials-box img {
+    object-fit: contain;
+    max-width: 70px;
+    position: absolute;
+    top: -36px;
+    left: 28px;
+}
+
+.testimonial-title h4, .how-title h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FD6727;
+}
+
+.testimonial-title h1, .how-title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #161D27;
+    position: relative;
+}
+
+.how-title span {
+    position: relative;
+}
+
+.how-title span:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    background-image: url(../../assets/images/underlinev2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    bottom: -20px;
+    height: 30px;
+    left: 0;
+}
+
+.how-title {
+    margin-bottom: 75px;
+}
+
+
+.testimonial-title {
+    padding-bottom: 65px;
+}
+.single-testimonials {
+    margin-left: -14px;
+    max-width: 324px;
+    width: 100%;
+}
+
+.testimonial-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.single-testimonials-box {
+    text-align: center;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161D27;
+    padding-top: 20px;
+    font-family: 'BuenosAiresThin';
+}
+
+h6.teacher-of {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #161D27;
+    margin-bottom: 0;
+}
+
+.years {
+    font-size: 13px;
+    line-height: 19px;
+    color: #6C6A6A;
+    font-family: 'BuenosAiresRegular';
+}
+
+.lessons span {
+    color: #fd6727;
+}
+
+.lessons {
+    font-size: 13px;
+    line-height: 19px;
+    color: #6C6A6A;
+    font-family: 'BuenosAiresThin';
+    padding: 3px 0px;
+}
+
+.ratings {
+    color: #FFA704;
+    font-size: 13px;
+    padding: 3px 0px;
+}
+
+.pricing {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #878787;
+    font-family: 'BuenosAiresThin';
+}
+
+.pricing {
+    margin-top: 6px;
+}
+
+.pricing b {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161D27;
+}
+
+
+section.testimonial-container {
+    padding-bottom: 130px;
+}
+
+
+
+.how-1 .item-pic {
+    background: #FFEEF1;
+    border-radius: 30px;
+}
+
+.how-2 .item-pic {
+    background: #FFF4EE;
+    border-radius: 30px;
+}
+
+.how-3 .item-pic {
+    background: #EEF3FF;
+    border-radius: 30px;
+}
+
+
+.how-content .item-content h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #161D27;
+    margin-top: 15px;
+}
+
+.how-content .item-content .number {
+    background: #161D27;
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'BuenosAiresBold';
+    border-radius: 100%;
+}
+
+
+.how-content a.rubicon-btn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.how-content a.rubicon-btn i {
+    padding-left: 6px;
+    vertical-align: text-bottom;
+}
+
+.how-content .row {
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.how-content .container {
+    max-width: 940px;
+}
+.how-inner .item-pic img {
+    height: auto;
+    object-fit: contain;
+    max-width: 371px;
+}
+.how-content .item-content {
+    margin-left: 50px;
+    max-width: 520px !important;
+}
+
+
+
+.row.how-2 .item-content {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.how-inner .item-pic {
+    max-width: 500px;
+    height: 427px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-content {
+    margin-bottom: 120px;
+}
+
+.teachers-inner .item-heading h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #161D27;
+    margin-top: 4px;
+}
+
+.heading {
+    padding-top: 12px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #6C6A6A;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location i {
+    font-family: 'FontAwesome';
+    color: #fd6727;
+    margin-right: 8px;
+}
+.item-review {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    font-family: 'BuenosAiresSemiBold';
+}
+.heading span {
+    font-style: normal;
+    font-weight: 600;
+    font-size:16px;
+    line-height: 22px;
+    color: #FD6727;
+}
+
+
+.teachers-row .item {
+    margin-bottom: 30px;
+}
+
+
+.teachers-row .item img {
+
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+section.customer-review {
+    background: #161D27;
+    margin-top: 105px;
+    color: #fff;
+}
+
+section.customer-review img {
+    width: 100%;
+}
+
+
+section.customer-review {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+
+.customer-review .item-content .desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-family: 'BuenosAiresThin';
+}
+
+
+section.customer-review span:before {
+    content: "";
+    height: 26px;
+    background-color: #fd6727;
+    width: 2px;
+    position: absolute;
+    left: 0;
+}
+
+section.customer-review span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'BuenosAiresRegular';
+    position: relative;
+    top: 9px;
+    padding-left: 14px;
+}
+
+
+.blog-inner .item img {
+    width: 100%;
+    border-radius: 20px;
+}
+.blog-inner .item {
+    position: relative;
+}
+
+
+.blog-inner .item:after {
+    content: "";
+    background: linear-gradient(0deg, #161D27 16.87%, rgba(22, 29, 39, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 24px);
+    height: 233px;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    margin: 0 auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.blog-inner {
+    margin-bottom: 90px;
+}
+.blog-inner .item {
+    position: relative;
+}
+
+.over-caption {
+    position: absolute;
+    bottom: 20px;
+    z-index: 9;
+    color: #fff;
+    left: 40px;
+}
+
+.over-caption h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+.date ul li {
+    margin-right: 13px;
+}
+.date ul li i {
+    color: #fd6727;
+    margin-right: 8px;
+}
+.date ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'BuenosAiresThin';
+}
+.over-caption .button {
+    margin-bottom: 20px;
+}
+.date ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.how-title span:after {
+
+    background-image: url(../../assets/images/underlinev3.svg);
+}
+.news-letter-box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #E8E6E6;
+}
+.news-letter-box h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.newsletter-container.container {
+    max-width: 1000px;
+    background: #161D27;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 72px 145px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box .item input {
+    width: 462px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.form-box .item input {
+    width: 462px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-left: 39px;
+    font-family: 'BuenosAiresRegular';
+}
+
+.form-box {
+    margin-top: 31px;
+    column-gap: 15px;
+}
+.form-box .item button {
+    background: #FD6727;
+    border-radius: 50px;
+    border: 0;
+    height: 56px;
+    width: 200px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'BuenosAiresRegular';
+}
+
+
+.special-box:after {
+    content: "";
+    background: linear-gradient(90deg, #161D27 50.54%, rgba(22, 29, 39, 0) 100%);
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    border-bottom-left-radius: 100px;
+}
+.special-box .caption {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    left: 113px;
+    transform: translate(0%, -50%);
+}
+.special-box {
+    position: relative;
+    width: 1200px;
+    height: 490px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.special-box {
+    background-image: url(../../assets/images/special.png);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.special-box .item-caption h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.special-box .item-caption .button {
+    margin-top: 30px;
+}
+.special-box .item-caption {
+    max-width: 635px;
+}
+
+
+
+
+
+.swiper-slide div:after {
+    content: "";
+    background: linear-gradient(358.6deg, #161D27 11.48%, rgba(22, 29, 39, 0) 94.52%);
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.swiper-slide div {
+    position: relative;
+}
+
+.slider1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #161D27 0%, rgba(22, 29, 39, 0.85) 100%);
+box-shadow: inset 0px -46px 4px rgba(0, 0, 0, 0.25);
+}
+
+.slider1 .ovarlay a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    bottom: 10px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  /* filter: blur(1px); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+section.slider-sec {
+    background-color: #151c26;
+}
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+  background: #62667f;
+}
+
+.swiper-slide--two span {
+  background: #087ac4;
+}
+
+.swiper-slide--three span {
+  background: #b45205;
+}
+
+.swiper-slide--four span {
+  background: #087ac4;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.bwtween-title {
+    margin-top: 55px;
+    margin-bottom: -15px;
+}
+
+.bwtween-title .how-title h1 {
+    color: #fff;
+}
+.bwtween-title h1 span:after {
+    z-index: 9;
+}
+.slider2 .swiper-slide, .slider2 .swiper-slide img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section.teachers-container {
+    margin-top: 80px;
+}
+.slider2 .ovarlay {
+    position: absolute;
+    z-index: 9;
+    bottom: 6px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.slider2 .swiper-slide div:after
+{
+    display: none;
+}
+
+.slider2 .ovarlay a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.slider2 .swiper-slide {
+    position: relative;
+}
+
+.slider2 .swiper-slide:after {
+    background: linear-gradient(358.6deg, #161D27 11.48%, rgba(22, 29, 39, 0) 94.52%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 82px;
+}
+
+@media(min-width:1600px)
+{
+    header {
+        padding: 0px 50px;
+    }
+
+    .small-rubicon-btn, .small-rubicon-btn:hover {
+        padding: 15px 37px;
+    }
+    
+    a.help-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    a.help-icon {
+        width: 49px;
+        height: 49px;
+        line-height: 41px;
+    }
+
+
+    .banner-row {
+        max-width: 1290px;
+        margin: 0 auto !important;
+    }
+
+    .tag-line h1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 75px;
+
+    }
+
+    .tag-line p {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .searchbox input.form-control {
+        height: 86px;
+    }
+
+    .searchbox  input[type="submit"] {
+        width: 133px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .searchbox  input.form-control {
+
+        padding-left: 90px;
+    }
+
+    body .banner-section .searchbox form img {
+        top: 33px;
+        left: 54px;
+    }
+
+    .searchbox  input.form-control {
+        font-size: 15px;
+      
+    }
+
+     .container.footer-container {
+        max-width: 1592px !important;
+        margin: 0 auto;
+    }
+
+    .top-footer {
+        padding-top: 60px;
+        padding-bottom: 54px;
+    }
+
+    .footer-row .item-app h6 {
+        font-size: 30px;
+        line-height: 44px;
+
+    }
+    
+    .app-box img {
+        max-width: 170px;
+    }
+    
+    .app-box {
+        column-gap: 18px;
+    }
+    .footer-row p {
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .social-link ul li {
+        margin-right: 16px;
+    }
+    
+   
+    .social-link ul img {
+        width: 30px;
+        height: 30px;
+    }
+
+    select.form-select {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 12px 22px;
+    }
+
+    .bottom-footer {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .bottom-footer h6 {
+        font-size: 24px;
+        line-height: 34px;
+       
+    }
+
+    .footer-bottom-row ul li a {
+        font-size: 18px;
+        line-height: 32px;
+       
+    }
+
+    .copyright{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+    .banner-row .item-pic img {
+        height: 704.72px;
+    }
+
+    .language-row {
+        max-width: 1592px;
+    }
+
+    section.banner-section.container {
+        max-width: 1592px;
+        margin: 0 auto;
+    }
+
+    .language-title h2 {
+        font-size: 42px;
+        line-height: 59px;
+    }
+
+    .language-items .item img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .language-items .item h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .item.language-title.col-md-4 {
+        max-width: 464px;
+    }
+
+    .language-row {
+        justify-content: space-between;
+    }
+
+    .language-row {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    section.testimonial-container .testimonials-inner {
+        max-width: 1592px;
+        margin: 0 auto;
+    }
+
+    .single-testimonials-box {
+        padding: 35px 78px;
+    }
+
+    .testimonial-title h4, .how-title h4 {
+   
+        font-size: 22px;
+        line-height: 56px;
+        margin-bottom: 0px;
+     
+    }
+
+    .testimonial-title h1, .how-title h1 {
+
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .testimonial-title {
+        padding-bottom: 100px;
+    }
+
+    .single-testimonials {
+        margin-left: -22px;
+        max-width: 324px;
+    }
+
+    .single-testimonials-box img {
+        max-width: 100px;
+        top: -54px;
+        left: 40px;
+    }
+
+
+    .name {
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 20px;
+    }
+    
+    h6.teacher-of {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .years {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+
+    
+    .lessons {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+    .ratings {
+        font-size: 16px;
+    }
+    
+    .pricing {
+        font-size: 15px;
+        line-height: 39px;
+    }
+    
+    .pricing {
+        margin-top: 10px;
+    }
+    
+    .pricing b {
+        font-size: 24px;
+    }
+
+    section.testimonial-container {
+        padding-bottom: 190px;
+    }
+
+    .testimonial-wrap {
+        max-width: 1592px;
+    }
+
+
+    .how-title {
+        margin-bottom: 115px;
+    }
+
+    .rubicon-btn{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 20px 29px;
+    }
+
+    .how-content .item-content .number {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+       
+    }
+
+    .how-content .item-content h4 {
+
+        font-size: 30px;
+        line-height: 42px;
+     
+    }
+
+    
+    .how-content a.rubicon-btn i {
+        padding-left: 10px;
+    }
+
+    .how-content .container {
+        max-width: 1140px !important;
+    }
+
+    .how-content .row {
+        margin-bottom: 90px;
+    }
+
+    .how-content .container .row {
+        justify-content: space-between;
+    }
+
+    .how-content .item-content {
+        max-width: 535px !important;
+    }
+
+    .how-content {
+        margin-bottom: 150px;
+    }
+
+    .teachers-row .item {
+        margin-bottom: 45px;
+        text-align: center;
+    }
+
+
+    .teachers-inner.container {
+        max-width: 1592px;
+    }
+
+    .teachers-row .item img {
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 93%;
+        margin: 0 auto;
+    }
+    .location
+    {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .teachers-inner .item-heading h4 {
+  
+        font-size: 24px;
+        line-height: 35px;
+  
+    }
+
+    .location {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .item-review {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .heading span {
+  
+        font-size: 20.1267px;
+        line-height: 28px;
+   
+    }
+    
+    section.customer-review {
+        margin-top: 120px;
+    }
+
+    .customer-review .item-content .desc {
+        font-size: 29px;
+        line-height: 41px;
+    
+    }
+
+    section.customer-review .container {
+        max-width: 1200px;
+    }
+
+    .newsletter-container.container {
+        max-width: 1200px;
+    }
+}
+
+
+

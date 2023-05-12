@@ -5,59 +5,873 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="assets/css/global-style.css" rel="stylesheet">
-<style>
-
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-</style>
+<link href="assets/js/global-js.js" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+<!-- Header Starts-->
 
 <header>
-  <h2>Cities</h2>
-</header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="Rubicon Logo"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="header-link">Group Classes</a>
+              <a href="#" class="header-link"> Find a Teacher</a>
+              <a href="#" class="header-link">Apply to Teach</a>
+            </li>
+          </ul>
+          <div class="action-btns">
+            <a href="#" class="help-icon secondary-text"><img src="assets/images/help-circle.png" alt="Rubicon Help"> </a>
+            <a href="#" class="login white-bg small-rubicon-btn">Login</a>
+            <a href="#" class="signup primary-bg small-rubicon-btn">Signup</a>
+    
+        </div>
+        </div>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
+   
+      </div>
+    </nav>
+  </header>
+
+ <!-- Header Ends-->
+
+ <!-- Main Banner Section Starts-->
+ <div class="top-sec-cover">
+<section class="banner-section container">
+    <div class="banner-row row d-flex align-items-center">
+        <div class="item-tag-line col">
+            <div class="tag-line">
+                <h1>Master Any Subject or Language With Online <span class="underline"> Teachers</span></h1>
+                <p>Prepare to achieve your goals anytime, anywhere.</p>
+
+            </div>
+            <div class="searchbox">
+                <form action="#" method="post">
+                <div class="input-group mb-3">
+                    <img src="assets/images/Vector.svg">
+                    <input type="text" class="form-control" placeholder="What would you like to learn?" aria-label="What would you like to learn?" >
+                    <input type="submit" value="Go">
+                </div>
+            </form>
+            </div>
+            <div class="popular-key-word">
+                <strong>Popular:</strong> <span>Russian</span>, <span>Finnish</span>,
+                <span>Portuguese</span>,
+                <span>Hindi</span>, <span>Italian</span>, <span>Hebrew</span>
+            </div>
+        </div>
+        <div class="item-pic col">
+            <img src="assets/images/banner-img.png" class="img-fluid" alt="">
+        </div>
+    </div>
+
+
+    <div class="language-row row d-flex align-items-center">
+        <div class="item language-title col-md-4 col-sm-4 col-lg-4 col-xs-12">
+            <h2>We Make Language Learning Easy &amp; Simpler</h2>
+        </div>
+        <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12">
+        <div class="row language-items">
+        <div class="item col-md-4 col-sm-4 col-lg-4 col-xs-12">
+            <img src="assets/images/001-student.svg" alt="">
+            <h2>Professional Tutors</h2>
+        <p>Choose from over a myriad of professional &amp;experienced teachers to be fluent in any language.</p>
+        </div>
+        <div class="item col-md-4 col-sm-4 col-lg-4 col-xs-12">
+            <img src="assets/images/002-video-lesson.svg" alt="">
+            <h2>1-on-1 Live sessions</h2>
+        <p> Connect with your teachers via 1-on-1 live chat sessions and build a deeper understanding of a
+            language.</p>
+        </div>
+        <div class="item col-md-4 col-sm-4 col-lg-4 col-xs-12">
+            <img src="assets/images/003-user.svg" alt="">
+            <h2>Group Classes</h2>
+            <p>Feel motivated, enthusiastic, and improve your social interaction via group lessons.
+            What Language You Want To Learn?</p>
+        </div>
+    </div>
+</div>
+    </div>
+
+</section>
+</div>
+ <!-- Main Banner Section Ends-->
+
+
+ <!-- Main Banner Section Starts-->
+
+ <section class="testimonial-container">
+<div class="testimonials-inner">
+  <div class="testimonial-title">
+    <h4>Testimonials</h4>
+    <h1>What our Students are saying</h1>
+</div>
+
+<div class="testimonial-wrap">
+
+    <!--Single testimonial Dev can repeat from here -->
+
+    <div class="single-testimonials">
+        <div class="single-testimonials-box">
+        <img src="assets/images/user1.png">
+        <div class="name">Leslie A</div>
+        <h6 class="teacher-of">Maths Tution</h6>
+        <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="lessons"><span>150+</span>  lesson complete</div>
+        <div class="years">3 years course done</div>
+        <div class="pricing"><b>£30</b> /per hour</div>
+        </div>
+    </div>
+
+        <!--Single testimonial Dev can repeat from here -->
+
+
+         <!--Single testimonial Dev can repeat from here -->
+
+    <div class="single-testimonials">
+        <div class="single-testimonials-box">
+        <img src="assets/images/user1.png">
+        <div class="name">Leslie A</div>
+        <h6 class="teacher-of">Maths Tution</h6>
+        <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="lessons"><span>150+</span>  lesson complete</div>
+        <div class="years">3 years course done</div>
+        <div class="pricing"><b>£30</b> /per hour</div>
+        </div>
+    </div>
+
+        <!--Single testimonial Dev can repeat from here -->
+
+
+         <!--Single testimonial Dev can repeat from here -->
+
+    <div class="single-testimonials">
+        <div class="single-testimonials-box">
+        <img src="assets/images/user1.png">
+        <div class="name">Leslie A</div>
+        <h6 class="teacher-of">Maths Tution</h6>
+        <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="lessons"><span>150+</span>  lesson complete</div>
+        <div class="years">3 years course done</div>
+        <div class="pricing"><b>£30</b> /per hour</div>
+        </div>
+    </div>
+
+        <!--Single testimonial Dev can repeat from here -->
+
+         <!--Single testimonial Dev can repeat from here -->
+
+    <div class="single-testimonials">
+        <div class="single-testimonials-box">
+        <img src="assets/images/user1.png">
+        <div class="name">Leslie A</div>
+        <h6 class="teacher-of">Maths Tution</h6>
+        <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="lessons"><span>150+</span>  lesson complete</div>
+        <div class="years">3 years course done</div>
+        <div class="pricing"><b>£30</b> /per hour</div>
+        </div>
+    </div>
+
+        <!--Single testimonial Dev can repeat from here -->
+
+         <!--Single testimonial Dev can repeat from here -->
+
+    <div class="single-testimonials">
+        <div class="single-testimonials-box">
+        <img src="assets/images/user1.png">
+        <div class="name">Leslie A</div>
+        <h6 class="teacher-of">Maths Tution</h6>
+        <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="lessons"><span>150+</span>  lesson complete</div>
+        <div class="years">3 years course done</div>
+        <div class="pricing"><b>£30</b> /per hour</div>
+        </div>
+    </div>
+
+        <!--Single testimonial Dev can repeat from here -->
+
+</div>
+</div>
+
+ </section>
+
+
+ <!-- How Section Starts-->
+
+ <section class="how-container">
+    <div class="how-inner">
+      <div class="how-title">
+        <h4>learning</h4>
+        <h1>How to start <span class="underline">learning</span> with Rubicon?</h1>
+    </div>
+
+    <div class="how-content">
+
+        <div class="container">
+            <div class="row how-1  d-flex align-items-center">
+                <div class="item-pic col">
+                    <img src="assets/images/how1.png" class="img-fluid" alt="">
+                </div>
+                <div class="item-content col">
+                    <div class="number">1</div>
+                    <h4>Search through hundreds of the  best teachers</h4>
+                    <div class="desc"><p>Use filters like price, language, proficiency, subject, and location, to search
+                        for your preferred teacher</p></div>
+                    <a href="" class="rubicon-btn">Browse Tutors <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="row how-2 d-flex align-items-center">
+                <div class="item-content col">
+                    <div class="number">2</div>
+                    <h4>Book lessons with the best teacher  for you</h4>
+                    <div class="desc"><p>Go through the teacher’s profile and book a lesson after making the payment.</p></div>
+                    <a href="" class="rubicon-btn">Browse Tutors <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="item-pic col">
+                    <img src="assets/images/how2.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+            <div class="row how-3 d-flex align-items-center">
+                <div class="item-pic col">
+                    <img src="assets/images/how3.png" class="img-fluid" alt="">
+                </div>
+                <div class="item-content col">
+                    <div class="number">3</div>
+                    <h4>Log in to start learning</h4>
+                    <div class="desc"><p>Attend online lessons and start learning.</p></div>
+                    <a href="" class="rubicon-btn">Browse Tutors <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
 </section>
 
+<!-- How Section Starts-->
+
+
+<section class="slider-sec">
+    <div class="slider1">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide--one">
+          <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide--two">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--three">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--four">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--five">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="swiper-slide swiper-slide--five">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="swiper-slide swiper-slide--five">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="swiper-slide swiper-slide--five">
+            <div>
+                <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                <div class="ovarlay">
+                    <a href="">Spanish</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </div>
+    </div>
+
+    <div class="bwtween-title">
+    <div class="how-inner">
+        <div class="how-title">
+          <h4>subjects</h4>
+          <h1>Learn various <span class="underline">Subjects</span> of your choice</h1>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="slider2">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide--one">
+              <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide--two">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--three">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--four">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--five">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+    
+            
+            <div class="swiper-slide swiper-slide--five">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+    
+            
+            <div class="swiper-slide swiper-slide--five">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+    
+            
+            <div class="swiper-slide swiper-slide--five">
+                <div>
+                    <img src="assets/images/slider1.png" class="img-fluid" alt="">
+                    <div class="ovarlay">
+                        <a href="">Spanish</a>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        </div>
+
+
+  </section>
+
+
+<!-- Top teachers Section -->
+
+<section class="teachers-container">
+    <div class="how-inner">
+      <div class="how-title">
+        <h4>Teachers</h4>
+        <h1>Top Rated <span class="underline">Teachers</span></h1>
+    </div>
+    </div>
+<div class="teachers-inner container">
+    <div class="teachers-row row">
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher1.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Jacklyn Reichel</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Guinea-Bissau</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher2.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Chandler Larson</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Switzerland</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher3.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Celine Kilback</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Montenegro</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher4.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Alexandria Halvorson</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Canada</div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher5.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Duncan Yost</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Luxembourg</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher6.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Ida Kessler</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Lesotho</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher7.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Mustafa Dicki</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Qatar</div>
+        </div>
+        <div class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/images/teacher8.png" class="img-fluid" alt="">
+            <div class="heading">
+                <div class="item-heading">
+                    <h4>Modesto Boyer</h4>
+                </div>
+                <div class="item-review"><span>5.0 <i class="fa-solid fa-star"></i></span> (2)</div>
+
+            </div>
+            <div class="location"><i class="fa-regular fa-location-dot"></i> Saint Kitts and Nevis</div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- Top teachers Section -->
+
+
+<!-- Customer Reviews Section Starts -->
+
+<section class="customer-review">
+    <div class="container">
+        <div class="customer-review-row row d-flex align-items-center">
+            <div class="item-pic col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="assets/images/review.jpg" alt="">
+            </div>
+            <div class="item-content col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="desc">
+                    Rubicon tutors is perfect for people who have little time, not enough to pay for a private tutor &
+                    especially those who like the idea of talking with people from around the world.
+                </div>
+                <span>Sofia</span>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Reviews Section Ends -->
+
+
+
+
+
+
+<!-- Special Section Starts -->
+
+<section class="special-section">
+    <div class="container">
+        <div class="special-box">
+            <div class="caption">
+                <div class="item-caption">
+                    <h2>Speak any language fluently with the help of professional tutors</h2>
+                    <div class="button">
+                        <a href="#" class="signup primary-bg small-rubicon-btn">Browse Tutors <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="item-teacher">
+                    <div class="reviewbox">
+                        <h6>Marine K.</h6>
+                        <span>ESL Tutor</span>
+                        <div class="reviw-point"> <span>
+                                5.0 <i class="bi bi-star-fill"></i>
+                            </span>
+                            (20 Reviews)</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Special  Section Ends -->
+
+<!-- Blog Section Starts -->
+
+<section class="blog-section">
+    <div class="container-fluid">
+        <div class="how-inner">
+            <div class="how-title">
+              <h4>Blog</h4>
+              <h1>Latest <span class="underline">Blogs</span></h1>
+          </div>
+          </div>
+
+         <div class="blog-inner container"> 
+        <div class="blog-row row">
+            <div class="item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="assets/images/blogi1.png" alt="">
+                <div class="over-caption">
+                    <div class="button">
+                        <a href="" class="primary-bg small-rubicon-btn">Online coaching</a>
+
+                    </div>
+                    <h3>How To Launch An Online Coaching Business &amp; Start Scaling</h3>
+                    <div class="date">
+                        <ul>
+                            <li> <i class="fa-regular fa-calendar"></i> Mar 31, 2023</li>
+                            <li> <i class="fa-solid fa-clock"></i> 06:50 (120 Minutes)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="assets/images/blogi2.png" alt="">
+                <div class="over-caption">
+                    <div class="button">
+                        <a href="" class="primary-bg small-rubicon-btn">Online coaching</a>
+
+                    </div>
+                    <h3>How To Launch An Online Coaching Business &amp; Start Scaling</h3>
+                    <div class="date">
+                        <ul>
+                            <li> <i class="fa-regular fa-calendar"></i> Mar 31, 2023</li>
+                            <li> <i class="fa-solid fa-clock"></i> 06:50 (120 Minutes)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<!-- Blog Section Ends -->
+
+<!-- Newsletter Section Ends -->
+<section class="newsletter-section">
+    <div class="newsletter-container container">
+        <div class="row">
+            <div class="col">
+                <div class="news-letter-box">
+                    <h2>Newsletter</h2>
+                    <p class="text-center">Enter your email and subscribe to recieve notifications of new posts by email</p>
+                    <div class="form-box">
+                        <div class="item">
+                            <input type="text" class="form-control" placeholder="Your email address">
+                        </div>
+                        <div class="item">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Section Ends -->
+
 <footer>
-  <p>Footer</p>
+  
+
+        <div class="container-fluid top-footer ">
+            <div class="footer-container container">
+                <div class="footer-row row">
+                <div class="item-app col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <h6>Get the Rubicon Tutors app</h6>
+                    <p>Download our free app for tutors and students</p>
+                    <div class="app-box">
+                        <img src="assets/images/playstore.png" alt="">
+                        <img src="assets/images/appstore.png" alt="">
+                    </div>
+                </div>
+                <div class="item-support col-lg-3col-md-3 col-sm-3 col-xs-12">
+                    <h6>Support</h6>
+                    <p>Follow us for news and update</p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href=""><img src="assets/images/fb.png"></a></li>
+                            <li><a href=""><img src="assets/images/twitter.png"></a></li>
+                            <li><a href=""><img src="assets/images/insta.png"></a></li>
+                            <li><a href=""><img src="assets/images/youtube.png"></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-language col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h6>Language &amp; Currency</h6>
+                    <select class="form-select mb-3">
+                        <option value="">English</option>
+                    </select>
+                    <select class="form-select">
+                        <option value="" class="form-control">GBP</option>
+                    </select>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid  bottom-footer">
+            <div class="footer-container container">
+                <div class="footer-bottom-row ">
+                   <div class="item" >
+                    <h6>Rubicon Tutors</h6>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Rubicon Tutors reviews</a></li>
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Browse countries</a></li>
+                        <li><a href="">Browse subjects</a></li>
+                        <li><a href="">Tutoring jobs</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Support</h6>
+                    <ul>
+                        <li><a href=""> Sign up</a></li>
+                        <li><a href="">Student FAQs</a></li>
+                    </ul>
+
+                    <h6 class="mt-5">Tutors</h6>
+                    <ul>
+                        <li><a href=""> Become A Tutor</a></li>
+                        <li><a href="">Tutor FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Subject</h6>
+                    <ul>
+                        <li><a href="">Maths tutors</a></li>
+                        <li><a href="">English tutors</a></li>
+                        <li><a href="">Science tutors</a></li>
+                        <li><a href="">French tutors</a></li>
+                        <li><a href="">Spanish tutors</a></li>
+                        <li><a href="">Guitar tutors</a></li>
+                        <li><a href="">Piano tutors</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Group classes</h6>
+                    <ul>
+                        <li><a href=""> Browse group classes</a></li>
+                        <li><a href="">How it works?</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Resourses</h6>
+                    <ul>
+                        <li><a href=""> Help center</a></li>
+                        <li><a href="">How it works?</a></li>
+                        <li><a href="">Terms &amp; condition</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies policy</a></li>
+                        <li><a href="">blog</a></li>
+                    </ul>
+                </div>
+                </div>
+                <hr>
+                <div class="text-center copyright">© 2023 Rubicon Tutors</div>
+            </div>
+           
+        </div>
 </footer>
 
+<script>
+   var swiper = new Swiper(".swiper", {
+  effect: "",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView:6,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false
+  },
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  }
+});
+
+
+var swiper2 = new Swiper(".swiper2 .swiper", {
+  effect: "",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView:6,
+  autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false
+  },
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  }
+});
+</script>
 </body>
 </html>
 
